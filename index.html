@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    <div class="min-h-screen w-full flex font-mono">
+        <aside class="bg-rose-700 w-full max-w-60 h-screen flex flex-col p-6 text-white">
+            <div class="bg-white h-12 w-12 border border-black rounded-xl p-1.5">
+                <div class="bg-rose-700 w-full h-full rounded-full"></div>
+            </div>
+            <nav class="-ml-1 mt-8 flex-1">
+                <ul class="flex flex-col gap-y-4">
+                    <li>
+                        <a class="flex items-center p-1" href="#">
+                            <img src="./assets/assignments.svg" class="h-10 mr-3" alt="">
+                            Tarefas
+                        </a>
+                    </li>
+
+                    <li>
+                        <a class="flex items-center p-1" href="#">
+                            <img src="./assets/kanban.svg" class="h-10 mr-3" alt="">
+                            Kanban
+                        </a>
+                    </li>
+
+                    <li>
+                        <a class="flex items-center p-1" href="#">
+                            <img src="./assets/vitrine.svg" class="h-10 mr-3" alt="">
+                            Vitrine
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+            <a class="flex items-center p-1" href="#">
+                <img src="./assets/user.svg" class="h-10 mr-3 invert" alt="">
+                Usuário
+            </a>
+        </aside>
+        <main class="w-full min-h-screen p-12 flex flex-col text-black">
+            <header class="flex justify-between mb-12">
+                <a href="#" class="">< Voltar</a>
+                <a href="#">+ Criar Tarefa</a>
+            </header>
+            <section class="flex gap-x-4 mb-6">
+                <span class="bg-rose-700 rounded text-white py-0.5 px-4">Todas</span>
+                <span class="py-0.5 px-4">Correção</span>
+                <span class="py-0.5 px-4">Devolvidas</span>
+                <span class="py-0.5 px-4">Concluídas</span>
+            </section>
+            <section class="flex flex-col gap-y-3">
+                <div class="border border-black rounded-md px-4 py-4 flex items-center">
+                    <div class="flex-1">
+                        <h2 class="font-bold">Título da Tarefa</h2>
+                        <p class="text-sm">Conclusão: 04 de fevereiro de 2024</p>
+                    </div>
+                    <div class="flex gap-x-1 mr-4">
+                        <img class="h-8" src="./assets/user.svg" alt="User">
+                        <img class="h-8" src="./assets/user.svg" alt="User">
+                        <img class="h-8" src="./assets/user.svg" alt="User">
+                    </div>
+                    <span class="text-2xl leading-none">></span>
+                </div>
+
+                <div class="border border-black rounded-md px-4 py-4 flex items-center">
+                    <div class="flex-1">
+                        <h2 class="font-bold">Título da Tarefa</h2>
+                        <p class="text-sm">Conclusão: 04 de fevereiro de 2024</p>
+                    </div>
+                    <div class="flex gap-x-1 mr-4">
+                        <img class="h-8" src="./assets/user.svg" alt="User">
+                        <img class="h-8" src="./assets/user.svg" alt="User">
+                        <img class="h-8" src="./assets/user.svg" alt="User">
+                    </div>
+                    <span class="text-2xl leading-none">></span>
+                </div>
+            </section>
+            <a href="#" class="mt-6">+ Criar Tarefa</a>
+        </main>
+
+        <div class="bg-blue-600 text-white px-3 py-2 rounded-l-md self-center">
+            <img src="./assets/eye.svg" class="h-8 invert" alt="Acessibilidade">
+        </div>
+    </div>
+</body>
+</html>
