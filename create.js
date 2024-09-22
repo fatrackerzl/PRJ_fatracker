@@ -27,5 +27,5 @@ form.addEventListener("submit", (e) => {
 
 	addAssignment(Object.fromEntries(formData))
 
-	location.href = "/"
+	location.href = "./"
 })
